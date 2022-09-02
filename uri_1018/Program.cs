@@ -7,6 +7,7 @@ namespace uri_1018
         static void Main(string[] args)
         {
             int valor = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Valor: R$ {valor},00");
             int nota1 = 0, nota2 = 0, nota5 = 0, nota10 = 0, nota20 = 0, nota50 = 0, nota100 = 0;
 
             while (valor != 0)
@@ -47,7 +48,13 @@ namespace uri_1018
                     nota1 += 1;
                 }
             }
-
+            Console.WriteLine($"{nota100} notas de R$ 100,00");
+            Console.WriteLine($"{nota50} notas de R$ 50,00");
+            Console.WriteLine($"{nota20} notas de R$ 20,00");
+            Console.WriteLine($"{nota10} notas de R$ 10,00");
+            Console.WriteLine($"{nota5} notas de R$ 5,00");
+            Console.WriteLine($"{nota2} notas de R$ 2,00");
+            Console.WriteLine($"{nota1} notas de R$ 1,00");
         }
     }
 }
