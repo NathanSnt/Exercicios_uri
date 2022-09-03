@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uri_1042", "uri_1042\uri_10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uri_1043", "uri_1043\uri_1043.csproj", "{AFAAF8A4-9B76-4B45-9AA9-4243BC5A6306}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uri_1044", "uri_1044\uri_1044.csproj", "{38C2F7AE-B9C4-4C6B-ABE6-FFA97712C3E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{AFAAF8A4-9B76-4B45-9AA9-4243BC5A6306}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFAAF8A4-9B76-4B45-9AA9-4243BC5A6306}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFAAF8A4-9B76-4B45-9AA9-4243BC5A6306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C2F7AE-B9C4-4C6B-ABE6-FFA97712C3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C2F7AE-B9C4-4C6B-ABE6-FFA97712C3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C2F7AE-B9C4-4C6B-ABE6-FFA97712C3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C2F7AE-B9C4-4C6B-ABE6-FFA97712C3E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
