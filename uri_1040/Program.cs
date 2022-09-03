@@ -14,12 +14,7 @@ namespace uri_1040
             double n3 = double.Parse(valores[2], CultureInfo.InvariantCulture);
             double n4 = double.Parse(valores[3], CultureInfo.InvariantCulture);
 
-            int p1 = 2;
-            int p2 = 3;
-            int p3 = 4;
-            int p4 = 1;
-
-            double media = (n1 * p1 + n2 * p2 + n3 * p3 + n4 * p4) / (p1 + p2 + p3 + p4);
+            double media = (n1 * 2 + n2 * 3 + n3 * 4 + n4) / 10.0;
             Console.WriteLine($"Media: {media.ToString("F1", CultureInfo.InvariantCulture)}");
 
             if (media >= 7.0)
@@ -34,11 +29,11 @@ namespace uri_1040
                 
                 media = (media + n5) / 2.0;
 
-                if (media >= 5)
+                if (media >= 5.0)
                 {
                     Console.WriteLine("Aluno aprovado.");
                 }
-                else if (media < 5)
+                else
                 {
                     Console.WriteLine("Aluno reprovado.");
                 }
