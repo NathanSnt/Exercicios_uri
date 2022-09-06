@@ -7,13 +7,13 @@ namespace uri_1038
     {
         static void Main(string[] args)
         {
-            string[,] tabela = new string[5, 3] 
-            { 
-                { "1", "Cachorro Quente", "4.00" }, 
-                { "2", "X-Salada", "4.50" }, 
-                { "3", "X-Bacon", "5.00" }, 
-                { "4", "Torrada simples", "2.00" }, 
-                { "5", "Refrigerante", "1.50" } 
+            string[,] tabela = new string[5, 3]
+            {
+                { "1", "Cachorro Quente", "4.00" },
+                { "2", "X-Salada", "4.50" },
+                { "3", "X-Bacon", "5.00" },
+                { "4", "Torrada simples", "2.00" },
+                { "5", "Refrigerante", "1.50" }
             };
 
             string[] pedido = Console.ReadLine().Split();
@@ -26,7 +26,7 @@ namespace uri_1038
                     break;
                 case 2:
                     Console.WriteLine($"Total: R$ {(double.Parse(tabela[1, 2], CultureInfo.InvariantCulture) * quantidade).ToString("F2", CultureInfo.InvariantCulture)}");
-                    break ;
+                    break;
                 case 3:
                     Console.WriteLine($"Total: R$ {(double.Parse(tabela[2, 2], CultureInfo.InvariantCulture) * quantidade).ToString("F2", CultureInfo.InvariantCulture)}");
                     break;

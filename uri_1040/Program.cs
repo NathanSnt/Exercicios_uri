@@ -26,7 +26,7 @@ namespace uri_1040
                 Console.WriteLine("Aluno em exame.");
                 double n5 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                 Console.WriteLine($"Nota do exame: {n5.ToString("F1", CultureInfo.InvariantCulture)}");
-                
+
                 media = (media + n5) / 2.0;
 
                 if (media >= 5.0)

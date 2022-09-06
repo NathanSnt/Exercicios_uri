@@ -8,8 +8,8 @@ namespace uri_1021
         static void Main(string[] args)
         {
             double valorRecebido = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            double nota2 = 0, nota5 = 0, nota10 = 0, nota20 = 0, nota50 = 0, nota100 = 0;
-            double moeda1Real = 0, moeda50 = 0, moeda25 = 0, moeda10 = 0, moeda05 = 0, moeda01 = 0;
+            double nota2, nota5, nota10, nota20, nota50, nota100;
+            double moeda1Real, moeda50 = 0, moeda25 = 0, moeda10 = 0, moeda05 = 0, moeda01 = 0;
 
             double valorInt = Math.Truncate(valorRecebido);
             double valorDecimal = valorRecebido - valorInt;
