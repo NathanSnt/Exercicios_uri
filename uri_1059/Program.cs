@@ -2,11 +2,22 @@
 
 namespace uri_1059
 {
-    class Program
+    class URI
     {
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            for (int x = 1; x <= 100; x++)
+            {
+                if (x % 2 == 0)
+                {
+                    Console.WriteLine(x);
+                }
+            }
+
         }
+
     }
+
 }

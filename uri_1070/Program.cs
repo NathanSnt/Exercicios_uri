@@ -2,11 +2,21 @@
 
 namespace uri_1070
 {
-    class Program
+    class URI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            int x = int.Parse(Console.ReadLine());
+
+            for (int i = x; i <= x+11; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+
         }
     }
 }
