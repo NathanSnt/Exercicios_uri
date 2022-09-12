@@ -2,11 +2,17 @@
 
 namespace uri_1095
 {
-    class Program
+    class URI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int i = 1;
+            for (int j = 60; j >= 0; j -= 5)
+            {
+                Console.WriteLine($"I={i} J={j}");
+                i += 3;
+            }
+
         }
     }
 }

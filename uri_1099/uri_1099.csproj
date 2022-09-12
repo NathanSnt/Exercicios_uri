@@ -2,7 +2,13 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
+<<<<<<< HEAD
     <TargetFramework>netcoreapp3.1</TargetFramework>
+=======
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+>>>>>>> 5276b9e1160fa387648b5fb19f1f56262dfcaf49
   </PropertyGroup>
 
 </Project>

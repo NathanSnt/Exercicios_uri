@@ -2,11 +2,29 @@
 
 namespace uri_1143
 {
-    class Program
+    class URI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int n, x;
+            n = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i <= n; i++)
+            {
+                x = i;
+                for (int j = 0; j < 3; j++)
+                {
+                    if (j == 2)
+                    {
+                        Console.WriteLine($"{x}");
+                    }
+                    else
+                    {
+                        Console.Write($"{x} ");
+                    }
+                    x *= i;
+                }
+            }
         }
     }
 }
