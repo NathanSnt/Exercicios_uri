@@ -189,7 +189,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "uri_1164", "uri_1164\uri_11
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "uri_1165", "uri_1165\uri_1165.csproj", "{2ED86AC6-A5B5-41E5-8149-BD5D44F7BCF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uri_1774", "uri_1774\uri_1774.csproj", "{836D9F93-CC82-460D-AE01-014DDFFFA2AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "uri_1774", "uri_1774\uri_1774.csproj", "{836D9F93-CC82-460D-AE01-014DDFFFA2AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uri_1149", "uri_1149\uri_1149.csproj", "{E7851F90-FBC7-4BEB-B664-1038139D7E1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -573,6 +575,10 @@ Global
 		{836D9F93-CC82-460D-AE01-014DDFFFA2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{836D9F93-CC82-460D-AE01-014DDFFFA2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{836D9F93-CC82-460D-AE01-014DDFFFA2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7851F90-FBC7-4BEB-B664-1038139D7E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7851F90-FBC7-4BEB-B664-1038139D7E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7851F90-FBC7-4BEB-B664-1038139D7E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7851F90-FBC7-4BEB-B664-1038139D7E1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
